@@ -66,7 +66,7 @@ try:
     TF_AVAILABLE = True
 except ImportError:
     TF_AVAILABLE = False
-    print("[Predictor] TensorFlow not found. LSTM model will be unavailable.")
+   
 
 
 class StockPredictor:
