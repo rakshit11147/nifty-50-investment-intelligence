@@ -47,7 +47,7 @@ section[data-testid="stSidebar"] p {
 
 /* ── Main content area ───────────────────────────────── */
 .main .block-container {
-    padding-top: 1.5rem;
+    padding-top: 4rem;
     padding-bottom: 2rem;
     max-width: 1400px;
 }
