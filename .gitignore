@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+dist/
+build/
+.eggs/
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Data files (large — don't commit raw CSVs)
+data/*.csv
+data/*.zip
+
+# Saved models (trained locally — don't commit binaries)
+models_saved/*.h5
+models_saved/*.pkl
+models_saved/*.json
+models_saved/*.keras
+
+# Streamlit (config.toml is tracked for the theme; only secrets stay local)
+.streamlit/secrets.toml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Reports output
+reports/*.pdf
+reports/*.html
